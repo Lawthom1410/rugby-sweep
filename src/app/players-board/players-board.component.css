@@ -1,0 +1,11 @@
+.playerCard{
+    width: 10rem;
+    margin: auto;
+    margin-top: 2rem;
+}
+.title-card{
+    position: sticky;
+    top: -5px;
+    overflow: visible;
+    z-index: 5;
+}

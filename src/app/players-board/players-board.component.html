@@ -1,0 +1,15 @@
+<div class="backdrop">
+    <div class="title-card">
+        <mat-card style="background: whitesmoke">
+            <div class="row">
+                <!-- <mat-icon style="color:rgb(22, 45, 76)">group</mat-icon> -->
+                <h2 class="title">Members</h2>
+            </div>
+        </mat-card>
+    </div>
+    <div *ngFor="let player of players;">
+        <mat-card class="playerCard">{{player.playerName}} | {{player.teamName}}</mat-card>
+    </div>
+    <div style="margin-top:4rem">Footer</div>
+</div>
+

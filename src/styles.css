@@ -1,1 +1,35 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+.backdrop {
+    /* height: 100%; */
+    min-height: 100%;
+    background-color: rgb(80, 172, 47);
+}
+.title {
+    width: fit-content;
+    margin: auto;
+    margin-top: 0;
+    color: rgb(22, 45, 76);
+    /* padding-top: 4px;
+    padding-bottom: 4px; */
+}
+.title-card{
+    position: sticky;
+    top: 0px;
+    overflow: visible;
+    z-index: 5;
+}
+.header {
+    /* position: sticky;
+    top: 0; */
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background-color:rgb(22, 45, 76);
+    justify-content: space-evenly;
+    padding: 0;
+}
